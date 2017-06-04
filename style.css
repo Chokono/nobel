@@ -1,0 +1,386 @@
+/*
+ * Theme Name: ClassicRGB lite
+ * Theme URI: https://rgb-classic.com/product/rgbclassic-lite/
+ * Version: 1.2.9
+ * Author: RGB Classic
+ * Author URI: http://rgb-classic.com/
+ * Description: The theme was built for eCommerce (WooCommerce) and personal blogging. If you have found a mistake in the translation or if you want to add a new language, please translate the text into your language and we will add it to the theme. https://rgb-classic.com/translation/
+ * ClassicRGB lite is distributed under the terms of the GNU GPL
+ * Tags: two-columns, left-sidebar, custom-menu
+ * Text Domain: classicrgb-lite
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/copyleft/gpl.html
+*/
+
+body {
+    background-color: #ffc9fe;
+    min-height: 2000px;
+}
+
+.clear {
+    clear: both;
+}
+
+.rowSmall {
+    max-width: 745px;
+    margin: 0 auto;
+}
+
+
+/*--------------------------------------------------------------
+
+ HEADER
+
+--------------------------------------------------------------*/
+
+.logo {
+    display: inline-block;
+    margin: 23px 0 0 0;
+}
+
+
+/*--------------------------------------------------------------
+
+ MENU
+
+--------------------------------------------------------------*/
+
+.navigation-top {
+    float: right;
+}
+
+.header-menu {
+    display: block;
+    padding: 38px 0;
+    list-style: none;
+    margin-bottom: 0;
+    float: right;
+}
+
+.header-menu li {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.header-menu li:first-child {
+    margin-left: 0;
+}
+
+.header-menu li a {
+    color: #465e6a;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.header-menu .current-menu-item a {
+    color: #2d98e8;
+}
+
+.header-menu.light-header-menu li a {
+    color: #fff;
+}
+
+.header-menu li a:hover {
+    color: #2d98e8;
+}
+
+#breadcrumbs {
+    height: 20px;
+    margin-top: 47px;
+    text-align: left;
+    display: block;
+    line-height: 20px;
+}
+
+#breadcrumbs .fa {
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    font-size: 20px;
+}
+
+#breadcrumbs a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+#breadcrumbs a:hover {
+    color: #2d98e8;
+}
+
+.topImage {
+    background-position: center;
+    background-size: cover;
+    min-height: 455px;
+}
+
+.vid {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+    background-color: #000;
+    min-height: 100%;
+    background-image: url(vid1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+}
+
+.vid video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.vid-content {
+    position: absolute;
+    bottom: 25%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 2;
+}
+
+#space_video {
+    position: fixed;
+}
+
+
+/* top-title */
+
+.top-title {
+    color: #fff;
+    font-size: 53px;
+    margin-top: 225px;
+    margin-bottom: 26px;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+/* CONTENT */
+
+.site-content {
+    position: relative;
+}
+
+.content-text {
+    margin: 119px 0 25px 0;
+    line-height: 1.9;
+    font-size: 16px;
+}
+
+.wp-caption {
+    max-width: 100%;
+}
+
+.post {
+    border-bottom: solid 1px #F0F0F0;
+    padding-bottom: 20px;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignright {
+    float: right;
+    margin: 0px 0px 0px 10px;
+}
+
+.alignleft {
+    float: left;
+    margin: 0px 10px 0px 0;
+}
+
+td,
+th {
+    padding: 10px !important;
+    border: 1px solid #ccc;
+}
+
+.wp-caption p.wp-caption-text {
+    margin: 0;
+    padding: 6px 0 0 0;
+}
+
+.wp-caption-text {
+    margin: 0 0 6px;
+}
+
+.sticky {
+    border-left: 4px solid #404040;
+    padding: 0 0 20px 20px;
+    border-bottom: 4px solid #404040;
+}
+
+.screen-reader-text {
+    display: none;
+}
+
+.blockquote {
+    border-left: 5px solid #404040 !important;
+}
+
+.entry-meta {
+    padding: 0 0 10px 0;
+}
+
+.comments-link {
+    float: right;
+}
+
+.edit-link {
+    float: right;
+}
+
+.comments-title {
+    margin: 20px 0;
+}
+
+.nav-links {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.nav-next a {
+    float: right;
+}
+
+.nav-previous a {
+    float: left;
+    clear: both;
+}
+
+.entry-footer {
+    padding: 20px 0;
+}
+
+
+/* HOME PAGE */
+
+.home_page_top {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    min-height: 683px;
+}
+
+.home_page_top h1 {
+    font-size: 27px;
+    padding: 15px 0 0 26%;
+    font-weight: bold;
+    line-height: 1.6;
+    text-shadow: 1px 1px 0px #000;
+}
+
+.home_page_top .container div {
+    padding: 197px 0 0 18%;
+}
+
+.home_page_content {
+    background: url('http://nobel.site/wp-content/themes/classicrgb-lite/img/1.png') no-repeat center top;
+    min-height: 2844px;
+}
+
+
+/* Galleries */
+
+.gallery {
+    margin-bottom: 1.6em;
+}
+
+.gallery-item {
+    display: inline-block;
+    padding: 1.79104477%;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+    max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+    max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+    max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+    max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+    max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+    max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+    max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+    max-width: 11.11%;
+}
+
+.gallery-icon img {
+    margin: 0 auto;
+}
+
+.gallery-caption {
+    display: block;
+    padding: 0.5em 0;
+}
+
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption {
+    display: none;
+}
+
+
+/* woocommerce */
+
+.woocommerce-ordering,
+.cart,
+.add_to_cart_button,
+.price {
+    display: none !important;
+}
+
+
+/* woocommerce end */
+
+
+/*footer */
+
+.main_footer {
+    position: relative;
+    background: rgba(0, 200, 0, 0.3);
+}
+
+.sidebar-footer2 li {
+    float: none;
+}
+
+
+/*footer end */

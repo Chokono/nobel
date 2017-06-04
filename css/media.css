@@ -1,0 +1,110 @@
+.newPage .content-area {
+	background-color: #f0f4f7;
+}
+.newPage #main {
+	background-color: white;
+}
+@media screen and (max-width: 750px) {
+	body .news:nth-child(1) {
+		width: 100%;
+	}
+	body .news {
+		width: 48%;
+	}
+	#svgMap img {
+		width: 120%;
+		margin-left: -20px;
+	}
+	body .row {
+		padding: 0 20px;
+	}
+	body #content {
+		padding: 0.1 20px;
+	}
+	#news {
+		padding: 50px 20px;
+	}
+	.newPage #main {
+		padding: 0.1px 20px;
+	}
+	.site-content-contain #content #primary {
+		padding: 50px 20px 100px;
+	}
+	.drugCont {
+		width: 49%;
+		text-align: left;
+	}
+	.noRecept {
+		width: 100%;
+	}
+	.contactList {
+		padding: 0.1px 20px;
+	}
+	.footerLeft .gran {
+		height: auto;
+	}
+	.topMenu {
+		position: relative;
+		border-bottom: 1px solid grey;
+	}
+	header .menu-mainmenu-container, {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 100%;
+		background-color: white;
+		display: none;
+		transition: 0.3s;
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	header .open-menu {
+		opacity: 1;
+		transform: none;
+	}
+	header #top-menu {
+		padding: 0 0 0 20px;
+	}
+	header #top-menu .menu-item {
+		width: 100%;
+		margin-left: 0;
+		padding: 5px 0;
+	}
+	header .menu-toggle {
+		display: block;
+		font-size: 24px;
+		background-color: transparent;
+		border: none;
+		line-height: 80px;
+		vertical-align: middle;
+		margin-top: 28px;
+		cursor: pointer;
+	}
+	header .menu-toggle:hover {
+		color: #2d98e8;
+	}
+	header .menu-toggle .icon-bars {
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+		float: right;
+		vertical-align: middle;
+		margin-top: 20px;
+		margin-left: 10px;
+	}
+	header .menu-toggle .icon-close {
+		width: 40px;
+		height: 40px;
+		display: none;
+
+	}
+	header .menu-toggle .fa {
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+		float: right;
+		vertical-align: middle;
+		margin-top: 20px;
+		margin-left: 10px;
+	}
+}
