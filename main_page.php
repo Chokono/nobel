@@ -18,7 +18,7 @@
 
 <?php get_header(); ?>
 
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/home_page.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/css/home_page.css">
 <section class="home_page_top">
 	<div class="container">
 		<div class="row">
