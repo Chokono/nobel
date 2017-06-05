@@ -148,7 +148,7 @@ function prefix_custom_product_data_tab_init(){
              'type'        => 'text',
              'label'       => __('Условия отпуска', 'wc_cpdf'),
              'placeholder' => __('A placeholder text goes here.', 'wc_cpdf'),
-             'style'       => 'width:70%;height:140px;',
+             'style'       => 'width:70%;',
              'description' => __('Условия отпуска.', 'wc_cpdf'),
              'desc_tip'    => true,
        )
