@@ -55,24 +55,23 @@
 
 				
 		$is_shop = get_post_meta( get_the_ID(),"_stock_status",true);
+		$top_img = "$style/img/space.jpg";
+		$sub_menu = "mainMenu";
 
 		if(get_post_meta($post->ID, 'top_title', true)&& !$is_shop){
-			$top_title =get_post_meta($post->ID, 'top_title', true);
+			$top_title = get_post_meta($post->ID, 'top_title', true);
+		}
+
+		if(get_post_meta($post->ID, 'sub_menu', true)){
+			$sub_menu = get_post_meta($post->ID, 'sub_menu', true);
 		}
 
 		if($is_shop){
 			$top_title = "Каталог продукции";
+			$sub_menu = "topCatalog";
+		}else{
+			$top_img = get_the_post_thumbnail_url();
 		}
-
-		$sub_menu = get_post_meta($post->ID, 'sub_menu', true);
-		$top_img = get_the_post_thumbnail_url();
-
-		//echo wp_get_attachment_image_url();
-		$top_img = "$style/img/space.jpg";
-
-		/*if(){
-
-		}*/
 
 		?>
 		<div class="clear topImage" <?php if(!is_front_page()){ ?> style="background-image: url('<?php echo $top_img; ?>');" <?php } ?> >
@@ -92,6 +91,11 @@
 				</div>
 				<div class="row">
 					<h1 class="top-title"><?php echo $top_title; ?></h1>
+				</div>
+				<div class="row">
+					<div class="submenu">
+					 <?php wp_nav_menu("menu=$sub_menu"); ?>
+					</div>
 				</div>
 			</div>
 		</div> 

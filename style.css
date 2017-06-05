@@ -161,10 +161,9 @@ body {
 .top-title {
     color: #fff;
     font-size: 53px;
-    margin-top: 225px;
-    margin-bottom: 26px;
     text-align: left;
     font-weight: bold;
+    margin: 225px 0 18px 0;
 }
 
 
@@ -292,6 +291,25 @@ th {
 .home_page_content {
     background: url('http://nobel.site/wp-content/themes/classicrgb-lite/img/1.png') no-repeat center top;
     min-height: 2844px;
+}
+
+.submenu {}
+
+.submenu .menu-item {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 20px 0 0;
+}
+
+.submenu .menu-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.submenu .current-menu-item {
+    border-bottom: 2px solid #2d98e8;
+    padding: 0 0px 3px 0;
 }
 
 
