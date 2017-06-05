@@ -52,7 +52,6 @@
 			</div>
 		</div>
 		<?php
-
 				
 		$is_shop = get_post_meta( get_the_ID(),"_stock_status",true);
 		$top_img = "$style/img/space.jpg";
@@ -65,6 +64,11 @@
 
 		if(get_post_meta($post->ID, 'sub_menu', true)){
 			$sub_menu = get_post_meta($post->ID, 'sub_menu', true);
+		}
+
+		if(is_home()){
+			$sub_menu = "topAbout_company";
+			$top_title = 'Компания "Nobel" в мире';
 		}
 
 		if($is_shop){
