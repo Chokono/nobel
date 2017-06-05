@@ -57,6 +57,7 @@
 		$is_shop = get_post_meta( get_the_ID(),"_stock_status",true);
 		$top_img = "$style/img/space.jpg";
 		$sub_menu = "mainMenu";
+		$top_title = get_the_title();
 
 		if(get_post_meta($post->ID, 'top_title', true)&& !$is_shop){
 			$top_title = get_post_meta($post->ID, 'top_title', true);
@@ -69,7 +70,7 @@
 		if($is_shop){
 			$top_title = "Каталог продукции";
 			$sub_menu = "topCatalog";
-		}else{
+		}else if(get_the_post_thumbnail_url()){
 			$top_img = get_the_post_thumbnail_url();
 		}
 
