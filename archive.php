@@ -9,7 +9,7 @@
 	</div>
 
 
-
+111111111
 
 <section class="main_content">
 		<div class="container">
@@ -18,7 +18,7 @@
 					<aside class="sidebar-left">
 					<?php dynamic_sidebar( 'sidebar-1' ); ?>
 					</aside>
-				</div>
+				</div>111111
 				<div class="col-md-9">
 					<div class="content-text">
 

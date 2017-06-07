@@ -179,6 +179,9 @@ body {
     background: #fff;
     padding: 30px 35px 0;
 }
+.content-text.news {
+	background: transparent;
+}
 
 .wp-caption {
     max-width: 100%;
@@ -405,7 +408,7 @@ th {
 }
 
 .main_footer .menu {
-    padding: 0 0 0px 34%;
+    /*padding: 0 0 0px 34%;*/
     display: inline-block;
 }
 

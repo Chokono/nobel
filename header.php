@@ -69,6 +69,7 @@
 		if(is_home()){
 			$sub_menu = "topAbout_company";
 			$top_title = 'Компания "Nobel" в мире';
+			$top_img = "$style/img/office.jpg";
 		}
 
 		if($is_shop){
