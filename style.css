@@ -14,7 +14,6 @@
 
 body {
     background-color: #ffc9fe;
-    min-height: 2000px;
 }
 
 .clear {
@@ -395,11 +394,32 @@ th {
 
 .main_footer {
     position: relative;
-    background: rgba(0, 200, 0, 0.3);
+    background: #262E40;
+    color: #fff;
+    padding: 38px 0 26px 0;
+}
+
+.main_footer a {
+    color: #AAACB1;
+    font-weight: bold;
+}
+
+.main_footer .menu {
+    padding: 0 0 0px 34%;
+    display: inline-block;
 }
 
 .sidebar-footer2 li {
     float: none;
+    padding: 0px 0 9px 0;
+}
+
+.main_footer .footer-angry {
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    padding: 35px 0 0 0;
 }
 
 
