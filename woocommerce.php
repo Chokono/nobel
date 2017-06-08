@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section class="main_content">
 		<div class="container">
-			<div class="row">
+			<div class="row woo_search">
 				<?php dynamic_sidebar( 'sidebar-1' ); ?>
 			</div>
 		</div>
