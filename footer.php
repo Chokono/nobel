@@ -6,23 +6,23 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-xs-6 col-sm-3">
+				<div class="col-xs-12 col-sm-3">
 					<aside class="sidebarfooter1-">
 					<?php dynamic_sidebar( 'sidebar-5' ); ?>
 					</aside>
 				</div>
 
-				<div class="col-xs-6 col-sm-3">
+				<div class="col-xs-12 col-sm-3">
 					<aside class="sidebar-footer2">
 					<?php dynamic_sidebar( 'sidebar-6' ); ?>
 					</aside>
 				</div>
-				<div class="col-xs-6 col-sm-3">
+				<div class="col-xs-12 col-sm-3">
 					<aside class="sidebar-footer3">
 					<?php dynamic_sidebar( 'sidebar-7' ); ?>
 					</aside>
 				</div>
-				<div class="col-xs-6 col-sm-3">
+				<div class="col-xs-12 col-sm-3">
 					<aside class="sidebar-footer4">
 					<?php dynamic_sidebar( 'sidebar-8' ); ?>
 					</aside>

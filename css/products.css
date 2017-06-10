@@ -1,0 +1,160 @@
+
+.woocommerce-ordering,
+.cart,
+.add_to_cart_button,
+.price {
+    display: none !important;
+}
+
+.woocommerce-page .content-text{
+    background: transparent;
+}
+
+.woocommerce-page .catalog{
+    
+}
+
+
+
+/* search */
+
+.widget_product_search {
+    position: relative;
+    padding: 16px 0px;
+    min-height: 71px;
+}
+
+.widget_product_search::after {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: ;
+}
+
+.woo_search .widget {
+    width: 33.1%;
+    float: left;
+    display: block;
+    border-right: 1px solid #ddd;
+    position: relative;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+@media all and (max-width: 750px) {
+    .woo_search .widget {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+}
+
+.widget_layered_nav::before,
+.widget_product_categories::before,
+.widget_product_categories::after,
+.widget_layered_nav::after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 8px;
+    box-shadow: 0 0 0 1px #337ab7;
+    position: absolute;
+    top: 33px;
+    z-index: 5;
+}
+
+.widget_layered_nav::before,
+.widget_product_categories::before {
+    right: 18px;
+    transform: rotate(40deg);
+}
+
+.widget_layered_nav::after,
+.widget_product_categories::after {
+    right: 25px;
+    transform: rotate(-40deg);
+}
+
+.widget_layered_nav:focus::before,
+.widget_product_categories:focus::before {
+    right: 25px;
+}
+
+.widget_layered_nav:focus::after,
+.widget_product_categories:focus::after {
+    right: 17px;
+}
+
+.woo_search .search-field {
+    width: 100%;
+    text-indent: 10px;
+    padding: 9px 0;
+    border: none;
+    line-height: 21px;
+}
+
+.woocommerce-product-search::after {
+    display: block;
+    width: 40px;
+    height: 100%;
+    z-index: 3;
+    content: '';
+    background: url('/wp-content/themes/classicrgb-lite/img/search.jpg') no-repeat center;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.search-field:focus {
+    border: none;
+    outline: none;
+}
+
+.widget_product_search input[type="submit"] {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    opacity: 0;
+    height: 100%;
+    z-index: 4;
+}
+
+.woo_search .widget select {
+    width: 100%;
+    -webkit-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    line-height: 30px;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+    background: #fff;
+    min-height: 71px;
+}
+
+.woo_search .widget select:active,
+.woo_search .widget select:focus {
+    border: none;
+}
+
+.woo_search .widget select>option {
+    border: none;
+    padding: 5px 0px;
+    text-indent: 20px;
+    background-color: #fff;
+}
+
+.woo_search .widget select>option:nth-child(2n) {
+    background-color: #eee;
+}
+
+
+/* search */
