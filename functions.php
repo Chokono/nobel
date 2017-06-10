@@ -159,3 +159,10 @@ function new_loop_shop_per_page( $cols ) {
   // Return the number of products you wanna show per page.
   return 12;
 }
+
+
+add_filter( 'woocommerce_show_page_title' , 'woo_hide_page_title' );
+
+function woo_hide_page_title() {
+	return false;	
+}
