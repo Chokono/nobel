@@ -14,6 +14,7 @@
 
 body {
     background-color: #ffc9fe;
+    font-family: 'Roboto', sans-serif;
 }
 
 .clear {
@@ -398,6 +399,10 @@ th {
     font-weight: bold;
 }
 
+.main_footer strong a {
+    color: #2f99eb;
+}
+
 .main_footer .menu {
     /*padding: 0 0 0px 34%;*/
     display: inline-block;
@@ -413,8 +418,29 @@ th {
     font-weight: bold;
     color: #fff;
     display: inline-block;
-    padding: 35px 0 0 0;
+    margin: 35px 0 0 0;
 }
 
 
 /*footer end */
+h1 {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+p {
+    line-height: 24px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+p strong {
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: #2f99eb;
+}
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+}

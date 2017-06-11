@@ -11,6 +11,7 @@
 <link rel="stylesheet" type="text/css" href="<?php echo $style; ?>/css/reset.css">
 <link rel="stylesheet" type="text/css" href="<?php echo $style; ?>/css/products.css">
 <link rel="stylesheet" type="text/css" href="<?php echo $style; ?>/font-awesome-4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"> 
 <?php wp_head(); ?>
 </head>
 
