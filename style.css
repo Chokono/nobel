@@ -209,6 +209,10 @@ body {
     margin: 0px 10px 0px 0;
 }
 
+.page-template-default .entry-title{
+	display: none;
+}
+
 td,
 th {
     padding: 10px !important;

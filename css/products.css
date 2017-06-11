@@ -170,10 +170,6 @@
     min-height: 408px;
 }
 
-.woocommerce-page.woocommerce ul.products li.last {
-    margin: 0;
-}
-
 .woocommerce-page.woocommerce .content-text {
     padding: 25px 0 0 0;
 }
@@ -205,4 +201,10 @@
 .woocommerce-page.woocommerce ul.products li.product a img {
     padding: 20px 0 4px;
     display: inline-block;
+}
+
+@media screen and (min-width: 960px) {
+    .woocommerce-page.woocommerce ul.products li.product:nth-child(4n) {
+        margin: 0;
+    }
 }
