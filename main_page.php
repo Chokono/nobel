@@ -31,7 +31,7 @@
 	</div>
 </section>
 <section class="home_page_content">
-	&nbsp;
+	&nbsp;11
 </section>
 
 <?php

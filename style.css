@@ -22,18 +22,22 @@ h1 {
     margin-top: 40px;
     margin-bottom: 30px;
 }
+
 p {
     line-height: 24px;
     color: #757575;
     margin-bottom: 10px;
 }
+
 p strong {
     color: black;
 }
+
 a {
     text-decoration: none;
     color: #2f99eb;
 }
+
 h3 {
     font-size: 28px;
     font-weight: bold;
@@ -44,6 +48,7 @@ h3 {
     list-style: disc;
     padding-left: 20px;
 }
+
 iframe {
     margin: 40px 0;
 }
@@ -117,6 +122,7 @@ iframe {
 }
 
 #breadcrumbs {
+    color: white;
     height: 20px;
     margin-top: 47px;
     text-align: left;
@@ -138,10 +144,11 @@ iframe {
     text-decoration: none;
     font-size: 16px;
     margin-right: 20px;
+    margin: 0 6px;
 }
 
 #breadcrumbs a:hover {
-    color: #2d98e8;
+    color: #73c3ff;
 }
 
 .topImage {
@@ -214,6 +221,7 @@ iframe {
 
 .content-text.news {
     background: transparent;
+    padding: 0;
 }
 
 .wp-caption {
@@ -241,8 +249,8 @@ iframe {
     margin: 0px 10px 0px 0;
 }
 
-.page-template-default .entry-title{
-	display: none;
+.page-template-default .entry-title {
+    display: none;
 }
 
 td,
@@ -415,6 +423,7 @@ th {
 .gallery-columns-9 .gallery-caption {
     display: none;
 }
+
 
 /*footer */
 
