@@ -17,6 +17,37 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+p {
+    line-height: 24px;
+    color: #757575;
+    margin-bottom: 10px;
+}
+p strong {
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: #2f99eb;
+}
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.rowSmall ul {
+    color: #757575;
+    list-style: disc;
+    padding-left: 20px;
+}
+iframe {
+    margin: 40px 0;
+}
+
 .clear {
     clear: both;
 }
@@ -423,33 +454,3 @@ th {
 
 
 /*footer end */
-h1 {
-    font-weight: bold;
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-p {
-    line-height: 24px;
-    color: #757575;
-    margin-bottom: 10px;
-}
-p strong {
-    color: black;
-}
-a {
-    text-decoration: none;
-    color: #2f99eb;
-}
-h3 {
-    font-size: 28px;
-    font-weight: bold;
-}
-
-ul {
-    color: #757575;
-    list-style: disc;
-    padding-left: 20px;
-}
-iframe {
-    margin: 40px 0;
-}
